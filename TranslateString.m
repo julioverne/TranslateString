@@ -9,6 +9,8 @@
  *                  NSString* translated = [@"Amando object c" googleTranslate];
  *
  */
+ 
+ static __strong UIWebView *webViewGoogleTL;
 
 @implementation NSString (TranslateString)
 -(NSString *)urlEncodeUsingEncoding:(NSStringEncoding)encoding
